@@ -1,7 +1,7 @@
 Django>=3.2.18
 
 gunicorn==21.2.0
-tensorflow-cpu==2.15.0.post1
+tensorflow-cpu
 keras>=2.11.0,<2.12
 
 numpy>=1.22, <1.24
