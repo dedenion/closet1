@@ -9,7 +9,7 @@ import numpy as np
 from django.shortcuts import render
 
 # モデルとクラス名の読み込み
-model = load_model("keras_Model.h5", compile=False)
+model = load_model("keras_model.h5", compile=False)
 class_names = [line.strip() for line in open("labels.txt", "r")]
 
 def remove_background(request):

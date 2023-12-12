@@ -150,7 +150,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-MODEL_PATH = BASE_DIR / "keras_Model.h5"
+MODEL_PATH = BASE_DIR / "keras_model.h5"
 LABELS_PATH = BASE_DIR / "labels.txt"
 
 
